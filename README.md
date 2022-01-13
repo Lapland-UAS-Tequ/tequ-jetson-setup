@@ -83,6 +83,8 @@ https://github.com/Lapland-UAS-Tequ/tequ-jetson-nodered-tensorflow
 
 ## Basler CV cameras with Jetson Nano 
 
+TBD
+
 ## Triton Inference Server
 
 https://github.com/Lapland-UAS-Tequ/tequ-setup-triton-inference-server
