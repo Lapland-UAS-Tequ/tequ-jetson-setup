@@ -33,7 +33,7 @@ sudo systemctl set-default multi-user.target
 sudo apt update && sudo apt upgrade
 ```
 
-### 6. Install jtop for analyzing 
+### 6. Install jtop for analyzing (optional)
 
 ```
 sudo apt-get install python3-pip
