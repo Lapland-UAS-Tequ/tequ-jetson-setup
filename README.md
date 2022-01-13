@@ -1,5 +1,5 @@
-# tequ-jetson-nano-setup
-Basic steps to configure Jetson Nano.
+# tequ-jetson-setup
+Basic steps to configure Jetson Nano / NX.
 
 # Actions
 
