@@ -81,7 +81,7 @@ sudo apt-get install -y nodejs
 
 https://github.com/Lapland-UAS-Tequ/tequ-jetson-nodered-tensorflow
 
-## Basler PyPylon 
+## Basler CV cameras with Jetson Nano 
 
 ## Triton Inference Server
 
