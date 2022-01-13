@@ -17,7 +17,7 @@ Basic steps to configure Jetson Nano.
 - https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit
 
 
-### 4. Disable GUI
+### 4. Disable GUI (optional)
 
 ```
 sudo service gdm stop
@@ -74,6 +74,24 @@ curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
 ```
 sudo apt-get install -y nodejs
 ```
+
+### 8.Next steps
+
+#### Tensorflow 2 & Node-RED with Jetson Nano
+
+https://github.com/Lapland-UAS-Tequ/tequ-jetson-nodered-tensorflow
+
+#### Basler PyPylon 
+
+#### Triton Inference Server
+
+https://github.com/Lapland-UAS-Tequ/tequ-setup-triton-inference-server
+
+
+
+
+
+
 
 
 
