@@ -4,7 +4,7 @@ Basic steps to configure Jetson Nano to be used at Tequ.
 ## Actions
 
 ### 1. Download latest official Jetson Nano image file
-- https://developer.nvidia.com/jetson-nx-developer-kit-sd-card-image
+- https://developer.nvidia.com/jetson-nano-sd-card-image
 
 ### 2. Flash image to SD card
 - Use for example Raspberry PI imager tool
