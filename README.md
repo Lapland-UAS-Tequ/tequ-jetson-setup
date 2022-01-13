@@ -1,23 +1,23 @@
 # tequ-jetson-nano-setup
 Basic steps to configure Jetson Nano.
 
-## Actions
+# Actions
 
-### 1. Download latest official Jetson Nano image file
+## 1. Download latest official Jetson Nano image file
 - https://developer.nvidia.com/jetson-nano-sd-card-image
 
-### 2. Flash image to SD card
+## 2. Flash image to SD card
 - Use for example Raspberry PI imager tool
 - https://downloads.raspberrypi.org/imager/imager_latest.exe
 
-### 3. Boot Jetson with SD card
+## 3. Boot Jetson with SD card
 - Plug SD card
 - Connect mouse, keyboard and display for graphical setup
 - Setup Micro-USB connection for terminal setup
 - https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit
 
 
-### 4. Disable GUI (optional)
+## 4. Disable GUI (optional)
 
 ```
 sudo service gdm stop
@@ -27,13 +27,13 @@ sudo service gdm stop
 sudo systemctl set-default multi-user.target
 ```
 
-### 5. Run update & upgrade
+## 5. Run update & upgrade
 
 ```
 sudo apt update && sudo apt upgrade
 ```
 
-### 6. Install jtop for analyzing (optional)
+## 6. Install jtop for analyzing (optional)
 
 ```
 sudo apt-get install python3-pip
@@ -47,7 +47,7 @@ sudo -H pip3 install -U jetson-stats
 jtop
 ```
 
-### 7. Install Node-RED 
+## 7. Install Node-RED 
 
 ```
 sudo apt-get install curl
@@ -65,7 +65,7 @@ sudo systemctl enable nodered.service
 sudo systemctl start nodered.service
 ```
 
-### 8. Upgrade Node.js 
+## 8. Upgrade Node.js 
 
 ```
 curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
@@ -75,15 +75,15 @@ curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
 sudo apt-get install -y nodejs
 ```
 
-### 8.Next steps
+# Next steps
 
-#### Tensorflow 2 & Node-RED with Jetson Nano
+## Tensorflow 2 & Node-RED with Jetson Nano
 
 https://github.com/Lapland-UAS-Tequ/tequ-jetson-nodered-tensorflow
 
-#### Basler PyPylon 
+## Basler PyPylon 
 
-#### Triton Inference Server
+## Triton Inference Server
 
 https://github.com/Lapland-UAS-Tequ/tequ-setup-triton-inference-server
 
