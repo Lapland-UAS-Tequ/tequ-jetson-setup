@@ -1,5 +1,14 @@
 # tequ-jetson-nano-setup
-Basic steps to configure Jetson Nano to be used at Tequ.
+Basic steps to configure Jetson Nano.
+
+Configuration:
+
+Jetpack 4.6
+Node.js
+Node-RED
+
+
+
 
 ## Actions
 
