@@ -58,6 +58,10 @@ bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installers/mast
 ```
 
 ```
+node-red admin init
+```
+
+```
 sudo systemctl enable nodered.service
 ```
 
@@ -74,6 +78,13 @@ curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
 ```
 sudo apt-get install -y nodejs
 ```
+
+## 9. Reboot
+
+```
+sudo reboot
+```
+
 
 # Next steps
 
