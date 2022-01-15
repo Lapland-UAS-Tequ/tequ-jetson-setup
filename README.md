@@ -127,13 +127,15 @@ sudo reboot
 
 https://github.com/Lapland-UAS-Tequ/tequ-jetson-nodered-tensorflow
 
+## Triton Inference Server
+
+https://github.com/Lapland-UAS-Tequ/tequ-setup-triton-inference-server
+
 ## Basler CV cameras with Jetson Nano 
 
 TBD
 
-## Triton Inference Server
 
-https://github.com/Lapland-UAS-Tequ/tequ-setup-triton-inference-server
 
 
 
