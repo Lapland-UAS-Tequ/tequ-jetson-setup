@@ -79,12 +79,41 @@ curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
 sudo apt-get install -y nodejs
 ```
 
-## 9. Reboot
+## 9. Enable jetson-clocks at boot (optional)
+
+https://forumvolt.com/magic/make-jetson-clocks-start-at-boot.84/
+
+```
+sudo apt install nano -y
+```
+
+```
+sudo nano /etc/rc.local
+```
+
+Add to file:
+```
+#!/bin/sh -e
+# rc.local
+#Maximize performances
+( sleep 60 && /usr/bin/jetson_clocks )&
+
+
+exit 0
+```
+
+Save and exit
+```
+sudo chmod +x /etc/rc.local
+```
+
+Jetson clocks will be enabled after 60 seconds since boot.
+
+## 10. Reboot
 
 ```
 sudo reboot
 ```
-
 
 # Next steps
 
