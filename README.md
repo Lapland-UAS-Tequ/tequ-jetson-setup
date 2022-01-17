@@ -5,7 +5,7 @@ https://www.tequ.fi/en/project-bank/fish-iot/
 ---
 
 # tequ-jetson-setup
-Basic steps to configure Jetson Nano / NX.
+Basic steps to configure Jetson Nano / Xavier NX.
 
 # Actions
 
@@ -131,7 +131,7 @@ https://github.com/Lapland-UAS-Tequ/tequ-jetson-nodered-tensorflow
 
 https://github.com/Lapland-UAS-Tequ/tequ-setup-triton-inference-server
 
-## Basler CV cameras with Jetson Nano 
+## Basler CV cameras with Jetson Nano / Xavier NX
 
 https://github.com/Lapland-UAS-Tequ/tequ-jetson-basler
 
