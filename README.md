@@ -133,7 +133,7 @@ https://github.com/Lapland-UAS-Tequ/tequ-setup-triton-inference-server
 
 ## Basler CV cameras with Jetson Nano 
 
-TBD
+https://github.com/Lapland-UAS-Tequ/tequ-jetson-basler
 
 
 
