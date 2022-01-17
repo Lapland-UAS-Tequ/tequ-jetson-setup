@@ -123,7 +123,7 @@ sudo reboot
 
 # Next steps
 
-## Tensorflow 2 & Node-RED with Jetson Nano
+## Tensorflow 2 & Node-RED with Jetson Nano / Xavier NX
 
 https://github.com/Lapland-UAS-Tequ/tequ-jetson-nodered-tensorflow
 
