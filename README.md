@@ -5,7 +5,7 @@ https://www.tequ.fi/en/project-bank/fish-iot/
 ---
 
 # tequ-jetson-setup
-Basic steps to configure Jetson Nano / Xavier NX / AGX.
+Basic steps to configure Jetson Nano / Xavier NX.
 
 # Actions
 
@@ -15,6 +15,7 @@ Basic steps to configure Jetson Nano / Xavier NX / AGX.
 ## 2. Flash image to SD card
 - Use for example Raspberry PI imager tool
 - https://downloads.raspberrypi.org/imager/imager_latest.exe
+- Optionally you can use NVIDIA SDK Manager to flash Jetson.
 
 ## 3. Boot Jetson with SD card
 - Plug SD card
