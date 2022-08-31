@@ -5,26 +5,16 @@ https://www.tequ.fi/en/project-bank/fish-iot/
 ---
 
 # tequ-jetson-setup
-Basic steps to configure Jetson Nano / Xavier NX.
+Basic steps to configure Jetson Nano / Xavier NX / AGX.
 
 # Actions
 
-## 1. Download latest official Jetson Nano image file
-- https://developer.nvidia.com/jetson-nano-sd-card-image
+## 1. Download latest official Jetson image file
+- https://developer.nvidia.com/embedded/jetpack
 
-## 2. Flash image to SD card
-- Use for example Raspberry PI imager tool
-- https://downloads.raspberrypi.org/imager/imager_latest.exe
-- Optionally you can use NVIDIA SDK Manager to flash Jetson.
+## 2. Install Jetpack & Software
 
-## 3. Boot Jetson with SD card
-- Plug SD card
-- Connect mouse, keyboard and display for graphical setup
-- Setup Micro-USB connection for terminal setup
-- https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit
-
-
-## 4. Disable GUI (optional)
+## 3. Disable GUI (optional)
 
 ```
 sudo service gdm stop
@@ -76,7 +66,7 @@ sudo systemctl enable nodered.service
 sudo systemctl start nodered.service
 ```
 
-## 8. Upgrade Node.js 
+## 8. Upgrade Node.js (optional)
 
 ```
 curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
