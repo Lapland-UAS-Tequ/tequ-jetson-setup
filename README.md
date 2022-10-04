@@ -78,9 +78,6 @@ sudo apt-get install -y nodejs
 ```
 
 ## 7. Enable jetson-clocks at boot (optional)
-
-https://forumvolt.com/magic/make-jetson-clocks-start-at-boot.84/
-
 ```
 sudo apt install nano -y
 ```
