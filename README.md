@@ -9,7 +9,7 @@ Basic steps to configure Jetson Board
 
 # Actions
 
-## 1. Install Jetpack & Software
+## 1. Configure system & Install Jetpack & Software
 
 Installation steps depends of your Jetson board. Install latest Jetpack that is supported.
 
