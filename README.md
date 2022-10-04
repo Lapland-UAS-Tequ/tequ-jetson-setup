@@ -5,7 +5,7 @@ https://www.tequ.fi/en/project-bank/fish-iot/
 ---
 
 # tequ-jetson-setup
-Basic steps to configure Jetson Nano / Xavier NX / AGX / Orin.
+Basic steps to configure Jetson Board
 
 # Actions
 
