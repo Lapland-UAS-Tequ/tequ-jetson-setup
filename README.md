@@ -10,6 +10,9 @@ Basic steps to configure Jetson Board
 # Actions
 
 ## 1. Install Jetpack & Software
+
+Installation steps depends of your Jetson board. Install latest Jetpack that is supported.
+
 - https://developer.nvidia.com/embedded/jetpack
 
 ## 2. Disable GUI (optional)
