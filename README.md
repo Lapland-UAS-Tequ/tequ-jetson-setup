@@ -9,12 +9,10 @@ Basic steps to configure Jetson Board
 
 # Actions
 
-## 1. Download latest official Jetson image file
+## 1. Install Jetpack & Software
 - https://developer.nvidia.com/embedded/jetpack
 
-## 2. Install Jetpack & Software
-
-## 3. Disable GUI (optional)
+## 2. Disable GUI (optional)
 
 ```
 sudo service gdm stop
@@ -24,13 +22,13 @@ sudo service gdm stop
 sudo systemctl set-default multi-user.target
 ```
 
-## 5. Run update & upgrade
+## 3. Run update & upgrade
 
 ```
 sudo apt update && sudo apt upgrade
 ```
 
-## 6. Install jtop for analyzing (optional)
+## 4. Install jtop for analyzing (optional)
 
 ```
 sudo apt-get install python3-pip
@@ -44,7 +42,7 @@ sudo -H pip3 install -U jetson-stats
 jtop
 ```
 
-## 7. Install Node-RED 
+## 5. Install Node-RED 
 
 ```
 sudo apt-get install curl
@@ -66,7 +64,7 @@ sudo systemctl enable nodered.service
 sudo systemctl start nodered.service
 ```
 
-## 8. Upgrade Node.js (optional)
+## 6. Upgrade Node.js (optional)
 
 ```
 curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
@@ -76,7 +74,7 @@ curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
 sudo apt-get install -y nodejs
 ```
 
-## 9. Enable jetson-clocks at boot (optional)
+## 7. Enable jetson-clocks at boot (optional)
 
 https://forumvolt.com/magic/make-jetson-clocks-start-at-boot.84/
 
@@ -106,7 +104,7 @@ sudo chmod +x /etc/rc.local
 
 Jetson clocks will be enabled after 60 seconds since boot.
 
-## 10. Reboot
+## 8. Reboot
 
 ```
 sudo reboot
