@@ -25,6 +25,15 @@ sudo service gdm stop
 sudo systemctl set-default multi-user.target
 ```
 
+Back to gui
+```
+sudo service gdm start
+```
+
+```
+sudo systemctl set-default graphical.target
+```
+
 ## 3. Run update & upgrade
 
 ```
