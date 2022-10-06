@@ -18,7 +18,7 @@ Installation steps depends of your Jetson board. Install latest Jetpack that is 
 ## 2. Disable GUI (optional)
 
 ```
-sudo service gdm stop
+sudo systemctl stop display-manager
 ```
 
 ```
@@ -27,7 +27,7 @@ sudo systemctl set-default multi-user.target
 
 Back to gui
 ```
-sudo service gdm start
+sudo systemctl start display-manager
 ```
 
 ```
