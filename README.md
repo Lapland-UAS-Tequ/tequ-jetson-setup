@@ -119,6 +119,26 @@ Jetson clocks will be enabled after 60 seconds since boot.
 sudo reboot
 ```
 
+# Changing Python version
+
+For example in Jetson Nano install Python 3.7
+
+```
+sudo apt install python3.7-dev
+```
+
+```
+sudo rm /usr/bin/python3
+```
+
+```
+sudo ln -s /usr/bin/python3.7 /usr/bin/python3
+```
+
+```
+python3
+```
+
 # Next steps
 
 ## Tensorflow 2 & Node-RED with Jetson Nano / Xavier NX
