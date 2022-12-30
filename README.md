@@ -13,9 +13,11 @@ Basic steps to configure Jetson Board
 
 Installation steps depends of your Jetson board. Install latest Jetpack that is supported.
 
+Official instructions for NVIDIA Jetson´s:
+
 - https://developer.nvidia.com/embedded/jetpack
 
-Neousys NRU-120S
+Instructions for Neousys NRU-120S
 - Official guide: https://neousys.gitbook.io/nru-series/nru-series/3.-reflash-nru-110v-or-nru-120s
 - Prepare host machine with Ubuntu Linux 18.04 
   - Get external SSD drive ~256 GB or bigger
