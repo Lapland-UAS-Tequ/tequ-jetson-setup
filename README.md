@@ -102,7 +102,7 @@ sudo systemctl start nodered.service
 ## 6. Upgrade Node.js (optional)
 
 ```
-curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
+curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
 ```
 
 ```
